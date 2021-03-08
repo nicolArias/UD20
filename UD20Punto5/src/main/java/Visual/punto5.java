@@ -35,7 +35,7 @@ public class punto5 extends JFrame{
 		btnLimpiar = new JButton();
 		btnLimpiar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				textArea.append("");
+				textArea.setText("");
 			}
 		});
 		btnLimpiar.setBounds(171, 21, 120, 25);
